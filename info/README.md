@@ -28,7 +28,10 @@
 
 # Installation
 
-run command "npm install"
+* run command "npm install"
+
+* run command "nodemon"
+
 
 # Usage
 
