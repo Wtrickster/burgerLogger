@@ -1,0 +1,98 @@
+body {
+    background-color: #fcdd60;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.burger {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    background-color: #fef4cf;
+    border-radius: 15%;
+    color: #f0262a;
+    font-size: 50px;
+    text-align: center;
+}
+
+.containerOne {
+    border-radius: 15%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.eaten,
+.not-eaten {
+    background-color: #fef4cf;
+    padding: 20px;
+    width: auto;
+}
+
+.item {
+    align-self: center;
+    justify-content: center;
+    flex: 0 1 auto;
+}
+
+.item2 {
+    align-self: flex-end;
+    justify-content: center;
+    font-size: large;
+}
+
+.containerTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 300px;
+    margin-top: 100px;
+}
+
+button {
+    border-radius: 20%;
+    padding: 10px;
+    margin: 2px 10px;
+}
+
+.change-devour {
+    background-color: #95d244;
+}
+
+.delete-burger {
+    background-color: #9ac7e8;
+}
+
+#burg {
+    padding: 20px;
+    width: 250px;
+    border-radius: 15%;
+}
+
+.addABurger {
+    background-color: #f172a9;
+}
+
+.addBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.heads {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px;
+    width: 500px;
+}
+
+footer {
+    background-color: white;
+}

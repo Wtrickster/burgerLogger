@@ -1,0 +1,26 @@
+{
+    "name": "burgerogger",
+    "version": "1.0.0",
+    "description": "A app that lets you submit, consume, and delete burgers",
+    "main": "servers.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Wtrickser/burgerLogger.git"
+    },
+    "keywords": [],
+    "author": "Joseph",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Wtrickser/burgerLogger/issues"
+    },
+    "homepage": "https://github.com/Wtrickser/burgerLogger#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.1.0",
+        "mysql": "^2.18.1"
+    }
+}
