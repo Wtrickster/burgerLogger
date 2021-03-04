@@ -30,7 +30,7 @@
 
 * run command "npm install"
 
-* run command "nodemon"
+* run command "nodemon server.js"
 
 
 # Usage
