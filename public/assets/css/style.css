@@ -1,5 +1,5 @@
 body {
-    background-color: #fcdd60;
+    background-color: rgb(159, 159, 241);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,9 +12,8 @@ body {
 }
 
 h1 {
-    background-color: #fef4cf;
     border-radius: 15%;
-    color: #f0262a;
+    color: rgb(23, 23, 122);
     font-size: 50px;
     text-align: center;
 }
@@ -29,7 +28,6 @@ h1 {
 
 .eaten,
 .not-eaten {
-    background-color: #fef4cf;
     padding: 20px;
     width: auto;
 }
@@ -63,11 +61,11 @@ button {
 }
 
 .change-devour {
-    background-color: #95d244;
+    background-color: #a7cf72;
 }
 
 .delete-burger {
-    background-color: #9ac7e8;
+    background-color: #7db9e4;
 }
 
 #burg {
@@ -77,7 +75,7 @@ button {
 }
 
 .addABurger {
-    background-color: #f172a9;
+    background-color: #dd1818;
 }
 
 .addBtn {
