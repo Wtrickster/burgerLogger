@@ -1,29 +1,29 @@
-//import the orm for functions to interact with database
-const orm = require("../config/orm.js");
+const orm = require("../config/orm");
 
 const burger = {
     all: function(cb) {
-        orm.all("burgers", function(res) {
+        orm.selectAll("burgers", function(res){
             cb(res);
         });
     },
-    //variables cols & vals are arrays.
-    create: function(cols, vals, cb) {
-        orm.create("burgers", cols, vals, function(res) {
+    create: function(userBurger, cb) {
+        orm.insertOne("burgers", "burger_name", userBurger, function(res){
             cb(res);
         });
     },
-    update: function(objColVals, condition, cb) {
-        orm.update("burgers", objColVals, condition, function(res) {
+    devour: function(setNewValue, matchedCondition, cb) {
+        // console.log(setNewValue);
+        // console.log(matchedCondition);
+        orm.updateOne("burgers", setNewValue, matchedCondition, function(res){
             cb(res);
         });
     },
     delete: function(condition, cb) {
-        orm.delete("burgers", condition, function(res) {
+        // console.log("Condition sent to burger js: " + condition);
+        orm.deleteOne("burgers", condition, function(res) {
             cb(res);
         });
     }
-};
+}
 
-//export database functions for controller
 module.exports = burger;

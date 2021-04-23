@@ -1,0 +1,103 @@
+body {
+    background-color: #F8C163!important;
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+#burger-pic {
+    width: 250px;
+    height: auto;
+}
+
+.tagline {
+    font-size: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comfortaa', cursive!important;
+}
+
+.devour-btn {
+    color: #FFFFFF!important;
+    background-color: #00A6A6!important;
+}
+
+.devour-btn:hover {
+    color: #FFFFFF!important;
+    background-color: #008888!important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.burger-text {
+    background-color: #73CECE;
+    border-bottom: 1px solid #B9E6E6;
+    color: #001F1F;
+}
+
+.devoured-text {
+    background-color: #BBDEF0;
+    border-bottom: 1px solid #D3EAF5;
+    color: #001F1F;
+}
+
+.burger-text:first-child {
+    border-top-left-radius: .25em;
+    
+}
+.burger-text:last-child {
+    border-bottom: none;
+    border-bottom-left-radius: .25em;
+    
+}
+
+.devoured-text:first-child {
+    border-top-right-radius: .25em;
+    
+}
+.devoured-text:last-child {
+    border-bottom: none;
+    border-bottom-right-radius: .25em;
+    
+}
+
+.add-btn {
+    background-color: #FF5964;
+    color: #FFFFFF;
+}
+
+.add-btn:hover {
+    background-color: #8C3137;
+    color: #FFFFFF;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-row {
+    border-top: 1px dashed #CBA35D;
+}
+
+.we-want-meat {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width:100%;
+}
+
+.we-want-meat img {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.delete-btn {
+    font-family: 'Deja Vu', 'Arial Unicode MS', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 10px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: color .15s ease-in-out,opacity .15s ease-in-out;
+}

@@ -1,50 +1,31 @@
-<header>
-   <img src="../assets/images/family-heads.png" class="heads">
-</header>
+<div class="row justify-content-center">
+  <div id="uneaten-burgers" class="col-6 col-lg-4 pr-0">
+    {{#each burgers}}
+      {{#unless devoured}}
+          <p class="burger-text py-2 my-0">{{this.burger_name}} <button class="btn devour-btn btn-sm ml-lg-4" data-id="{{this.id}}">Devour!</button><span class="delete-btn" data-id="{{this.id}}">&#10006;</span></p>
+      {{/unless}}
+    {{/each}}
+  </div>
+  <div id="eaten-burgers" class="col-6 col-lg-4 pl-0">
+    {{#each burgers}}
+      {{#if devoured}}
+          <p class="devoured-text py-2 my-0">{{this.burger_name}} <span class="delete-btn" data-id="{{this.id}}">&#10006;</span></p>
+      {{/if}}
+    {{/each}}
+  </div>  
+</div>
 
-{{#if burgers}}
-<h1>Eat Da Burger!</h1>
+<div class="row my-5 pt-5 form-row">
+  <div class="col-12">
+  <h2 class="mb-3">Add a Burger</h2>
+  <form class="create-form">
 
-<section class="containerOne">
-    <div class="not-eaten">
-        <h2 class="item">Burgers to Eat: </h2>
-        <ul class="item2">
-
-            {{#each burgers}}
-            {{#unless devoured}}
-            {{>burgers/burger-block devour=true}}
-            {{/unless}}
-            {{/each}}
-
-        </ul>
-    </div>
-    <div class="eaten">
-        <h2 class="item">Burgers You've Eaten: </h2>
-        <ul class="item2">
-            {{#each burgers}}
-            {{#if devoured}}
-            {{> burgers/burger-block devour=false}}
-            {{/if}}
-            {{/each}}
-        </ul>
+    <div class="form-group">
+      {{!-- <label for="name">Burger Name:</label> --}}
+      <input type="text" id="burger-name" name="name">
     </div>
 
-    {{/if}}
-</section>
-
-<section class="containerTwo">
-    <h2 class="item">Add a Burger</h2>
-    <form class="create-form">
-
-        <div class="form-group">
-            <input type="text" id="burg" name="name" placeholder="Burger Name">
-        </div>
-        <div class="addBtn">
-        <button type="submit" class="addABurger">Add Burger</button>
-        </div>
-    </form>
-</section>
-
-<footer>
-     <img src="../assets/images/burgeroftheday.png" class="burger">
-</footer>
+    <button id="submit-btn" class="add-btn btn" type="submit">Add Burger</button>
+  </form>
+  </div>
+</div>
