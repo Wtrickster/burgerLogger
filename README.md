@@ -22,9 +22,8 @@
 
 * [Contributing](#contributing)
 
-* [Tests](#tests)
-
 * [Questions](#questions)
+
 
 # Installation
 
@@ -37,7 +36,7 @@
 
 <img src = Pic1.png width=500>
 
-burgerloggerdb.herokuapp.com/
+www.burgerloggerdb.herokuapp.com/
 
 
 # License
@@ -48,10 +47,7 @@ MIT license
 
 ​Contributors: Wtrickster
 
-# Tests
-
-N/A
 
 # Questions
 
-Questions or issues, contact wtrickster at JSPenland97@gmail.com.
+Questions or issues, contact wtrickster at JSPenland97@gmail.com
