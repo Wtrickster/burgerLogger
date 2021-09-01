@@ -1,5 +1,5 @@
 # burgerLogger
-![GitHub license(https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/wtrickster/ReadME BOT)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Wtrickser/burgerLogger/)
 
 # Description
 
@@ -36,6 +36,8 @@
 # Usage
 
 <img src = Pic1.png width=500>
+
+burgerloggerdb.herokuapp.com/
 
 
 # License
