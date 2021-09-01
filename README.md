@@ -4,7 +4,7 @@
 
 # Description
 
-  *
+  * A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
 
 
 ## Table of Contents
@@ -79,6 +79,6 @@
   
 ## **Questions**
   
-  If you have questions or you want to share comments, we will be glad to hear from you. Please contact us at
+  * If you have questions or you want to share comments, we will be glad to hear from you. Please contact us at
   
-  JSPenland97@gmail.com
+    JSPenland97@gmail.com
