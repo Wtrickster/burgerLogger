@@ -4,7 +4,7 @@
 
 # Description
 
-  * A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
+  * A burger logger with MySQL, Node, Express, Handlebars and a custom ORM
 
 
 ## Table of Contents
